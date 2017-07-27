@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>直流电机</TargetName>
+      <TargetName>Target 1</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -47,7 +47,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>tt</OutputName>
+          <OutputName>dianji</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -225,7 +225,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>1</useUlib>
+            <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <RoSelD>3</RoSelD>
@@ -351,7 +351,7 @@
             <Optim>1</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
-            <OneElfS>1</OneElfS>
+            <OneElfS>0</OneElfS>
             <Strict>0</Strict>
             <EnumInt>0</EnumInt>
             <PlainCh>0</PlainCh>
@@ -360,7 +360,7 @@
             <wLevel>2</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
-            <uC99>1</uC99>
+            <uC99>0</uC99>
             <useXO>0</useXO>
             <VariousControls>
               <MiscControls></MiscControls>
@@ -412,7 +412,7 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\user\main.c</FilePath>
+              <FilePath>..\user\main.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -423,21 +423,6 @@
           <GroupName>::Device</GroupName>
           <Files>
             <File>
-              <FileName>misc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\misc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_rcc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c</FilePath>
-            </File>
-            <File>
-              <FileName>GPIO_STM32F10x.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\GPIO_STM32F10x.c</FilePath>
-            </File>
-            <File>
               <FileName>RTE_Device.h</FileName>
               <FileType>5</FileType>
               <FilePath>RTE\Device\STM32F103C8\RTE_Device.h</FilePath>
@@ -446,11 +431,6 @@
               <FileName>startup_stm32f10x_md.s</FileName>
               <FileType>2</FileType>
               <FilePath>RTE\Device\STM32F103C8\startup_stm32f10x_md.s</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_conf.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>RTE\Device\STM32F103C8\stm32f10x_conf.h</FilePath>
             </File>
             <File>
               <FileName>system_stm32f10x.c</FileName>
@@ -469,31 +449,13 @@
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="3.30.0" condition="CMSIS Core">
         <package name="CMSIS" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="ARM" version="4.1.0"/>
         <targetInfos>
-          <targetInfo name="直流电机"/>
-        </targetInfos>
-      </component>
-      <component Cclass="Device" Cgroup="GPIO" Cvendor="Keil" Cversion="1.2" condition="STM32F1xx CMSIS">
-        <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.1.0"/>
-        <targetInfos>
-          <targetInfo name="直流电机"/>
+          <targetInfo name="Target 1"/>
         </targetInfos>
       </component>
       <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="STM32F1xx CMSIS">
         <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.1.0"/>
         <targetInfos>
-          <targetInfo name="直流电机"/>
-        </targetInfos>
-      </component>
-      <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="Framework" Cvendor="Keil" Cversion="3.5.1" condition="STM32F1xx STDPERIPH">
-        <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.1.0"/>
-        <targetInfos>
-          <targetInfo name="直流电机"/>
-        </targetInfos>
-      </component>
-      <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="RCC" Cvendor="Keil" Cversion="3.5.0" condition="STM32F1xx STDPERIPH">
-        <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.1.0"/>
-        <targetInfos>
-          <targetInfo name="直流电机"/>
+          <targetInfo name="Target 1"/>
         </targetInfos>
       </component>
     </components>
@@ -503,7 +465,7 @@
         <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="STM32F1xx CMSIS"/>
         <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.1.0"/>
         <targetInfos>
-          <targetInfo name="直流电机"/>
+          <targetInfo name="Target 1"/>
         </targetInfos>
       </file>
       <file attr="config" category="source" condition="STM32F1xx MD ARMCC" name="Device\Source\ARM\startup_stm32f10x_md.s" version="1.0.0">
@@ -511,15 +473,7 @@
         <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="STM32F1xx CMSIS"/>
         <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.1.0"/>
         <targetInfos>
-          <targetInfo name="直流电机"/>
-        </targetInfos>
-      </file>
-      <file attr="config" category="source" name="Device\StdPeriph_Driver\templates\stm32f10x_conf.h" version="3.5.0">
-        <instance index="0">RTE\Device\STM32F103C8\stm32f10x_conf.h</instance>
-        <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="Framework" Cvendor="Keil" Cversion="3.5.1" condition="STM32F1xx STDPERIPH"/>
-        <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.1.0"/>
-        <targetInfos>
-          <targetInfo name="直流电机"/>
+          <targetInfo name="Target 1"/>
         </targetInfos>
       </file>
       <file attr="config" category="source" name="Device\Source\system_stm32f10x.c" version="1.0.0">
@@ -527,7 +481,7 @@
         <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="STM32F1xx CMSIS"/>
         <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.1.0"/>
         <targetInfos>
-          <targetInfo name="直流电机"/>
+          <targetInfo name="Target 1"/>
         </targetInfos>
       </file>
     </files>
