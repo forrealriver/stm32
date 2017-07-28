@@ -1,12 +1,0 @@
-Dependencies for Project 'dianji', Target 'Target 1': (DO NOT MODIFY !)
-F (..\user\main.c)(0x59786AAD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\GitHub\STM32_study\STM32_study\dianji\project\RTE-I F:\GitHub\STM32_study\STM32_study\dianji\project\RTE\Device\STM32F103C8-I E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D_RTE_ -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-F (RTE\Device\STM32F103C8\RTE_Device.h)(0x56F9DE5C)()
-F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x4F1E2E3C)(--cpu Cortex-M3 -g --apcs=interwork -I F:\GitHub\STM32_study\STM32_study\dianji\project\RTE-I F:\GitHub\STM32_study\STM32_study\dianji\project\RTE\Device\STM32F103C8-I E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
-F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1E2E3C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\GitHub\STM32_study\STM32_study\dianji\project\RTE-I F:\GitHub\STM32_study\STM32_study\dianji\project\RTE\Device\STM32F103C8-I E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D_RTE_ -DSTM32F10X_MD-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
-I (E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
-I (F:\GitHub\STM32_study\STM32_study\dianji\project\RTE\RTE_Components.h)(0x5978638D)
-I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
-I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
-I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
-I (E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)

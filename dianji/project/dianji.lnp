@@ -1,8 +1,0 @@
---cpu Cortex-M3
-".\main.o"
-".\startup_stm32f10x_md.o"
-".\system_stm32f10x.o"
---strict --scatter ".\dianji.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\dianji.map" -o .\dianji.axf

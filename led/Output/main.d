@@ -1,0 +1,9 @@
+..\output\main.o: ..\User\main.c
+..\output\main.o: ..\Lib\cmsis\stm32f10x.h
+..\output\main.o: ..\Lib\cmsis\core_cm3.h
+..\output\main.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\main.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\main.o: ..\User\stm32f10x_conf.h
+..\output\main.o: ..\User\RTE_Components.h
+..\output\main.o: ..\Lib\fwlib\inc\stm32f10x_gpio.h
+..\output\main.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h
