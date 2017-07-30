@@ -1,0 +1,9 @@
+..\output\stm32f10x_tim.o: E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c
+..\output\stm32f10x_tim.o: ..\Lib\fwlib\inc\stm32f10x_tim.h
+..\output\stm32f10x_tim.o: ..\Lib\cmsis\stm32f10x.h
+..\output\stm32f10x_tim.o: ..\Lib\cmsis\core_cm3.h
+..\output\stm32f10x_tim.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\stm32f10x_tim.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\stm32f10x_tim.o: ..\User\stm32f10x_conf.h
+..\output\stm32f10x_tim.o: ..\User\RTE_Components.h
+..\output\stm32f10x_tim.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h
