@@ -1,0 +1,13 @@
+..\output\switch.o: ..\BSP\src\switch.c
+..\output\switch.o: ..\BSP\inc\switch.h
+..\output\switch.o: ..\Lib\cmsis\stm32f10x.h
+..\output\switch.o: ..\Lib\cmsis\core_cm3.h
+..\output\switch.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\switch.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\switch.o: ..\User\stm32f10x_conf.h
+..\output\switch.o: ..\User\RTE_Components.h
+..\output\switch.o: ..\Lib\fwlib\inc\stm32f10x_gpio.h
+..\output\switch.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h
+..\output\switch.o: ..\Lib\fwlib\inc\stm32f10x_tim.h
+..\output\switch.o: ..\Lib\fwlib\inc\misc.h
+..\output\switch.o: ..\User\stm32f10x_it.h

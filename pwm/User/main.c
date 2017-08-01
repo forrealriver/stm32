@@ -11,7 +11,7 @@ void TIMER_cfg();
 void PWM_cfg();
 //占空比，取值范围为0-100
 int dutyfactor1 = 0;
-int dutyfactor2 = 80;
+int dutyfactor2 = 50;
 int dutyfactor3 = 80;
 int dutyfactor4 = 0;
  

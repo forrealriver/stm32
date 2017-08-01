@@ -1,0 +1,13 @@
+..\output\nrf24l01.o: ..\BSP\src\NRF24L01.c
+..\output\nrf24l01.o: ..\BSP\inc\NRF24L01.h
+..\output\nrf24l01.o: ..\Lib\cmsis\stm32f10x.h
+..\output\nrf24l01.o: ..\Lib\cmsis\core_cm3.h
+..\output\nrf24l01.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\nrf24l01.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\nrf24l01.o: ..\User\stm32f10x_conf.h
+..\output\nrf24l01.o: ..\User\RTE_Components.h
+..\output\nrf24l01.o: ..\Lib\fwlib\inc\stm32f10x_gpio.h
+..\output\nrf24l01.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h
+..\output\nrf24l01.o: ..\Lib\fwlib\inc\stm32f10x_tim.h
+..\output\nrf24l01.o: ..\Lib\fwlib\inc\misc.h
+..\output\nrf24l01.o: ..\User\stm32f10x_it.h

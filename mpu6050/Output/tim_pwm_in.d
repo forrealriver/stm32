@@ -1,0 +1,13 @@
+..\output\tim_pwm_in.o: ..\BSP\src\Tim_PWM_IN.c
+..\output\tim_pwm_in.o: ..\BSP\inc\TIM_PWM_IN.h
+..\output\tim_pwm_in.o: ..\Lib\cmsis\stm32f10x.h
+..\output\tim_pwm_in.o: ..\Lib\cmsis\core_cm3.h
+..\output\tim_pwm_in.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\tim_pwm_in.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\tim_pwm_in.o: ..\User\stm32f10x_conf.h
+..\output\tim_pwm_in.o: ..\User\RTE_Components.h
+..\output\tim_pwm_in.o: ..\Lib\fwlib\inc\stm32f10x_gpio.h
+..\output\tim_pwm_in.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h
+..\output\tim_pwm_in.o: ..\Lib\fwlib\inc\stm32f10x_tim.h
+..\output\tim_pwm_in.o: ..\Lib\fwlib\inc\misc.h
+..\output\tim_pwm_in.o: ..\User\stm32f10x_it.h

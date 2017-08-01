@@ -1,0 +1,13 @@
+..\output\imu.o: ..\BSP\src\IMU.c
+..\output\imu.o: ..\BSP\inc\mpu6050.h
+..\output\imu.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\imu.o: ..\Lib\cmsis\stm32f10x.h
+..\output\imu.o: ..\Lib\cmsis\core_cm3.h
+..\output\imu.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\imu.o: ..\User\stm32f10x_conf.h
+..\output\imu.o: ..\User\RTE_Components.h
+..\output\imu.o: ..\BSP\inc\I2C.h
+..\output\imu.o: ..\BSP\inc\IMU.h
+..\output\imu.o: ..\BSP\inc\mpu6050.h
+..\output\imu.o: ..\BSP\inc\delay.h
+..\output\imu.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
