@@ -1,0 +1,13 @@
+..\output\time.o: ..\BSP\src\time.c
+..\output\time.o: ..\BSP\inc\time.h
+..\output\time.o: ..\Lib\cmsis\stm32f10x.h
+..\output\time.o: ..\Lib\cmsis\core_cm3.h
+..\output\time.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\time.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\time.o: ..\User\stm32f10x_conf.h
+..\output\time.o: ..\User\RTE_Components.h
+..\output\time.o: ..\Lib\fwlib\inc\stm32f10x_gpio.h
+..\output\time.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h
+..\output\time.o: ..\Lib\fwlib\inc\stm32f10x_tim.h
+..\output\time.o: ..\Lib\fwlib\inc\misc.h
+..\output\time.o: ..\User\stm32f10x_it.h

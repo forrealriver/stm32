@@ -10,10 +10,10 @@ void GPIO_cfg();
 void TIMER_cfg();
 void PWM_cfg();
 //占空比，取值范围为0-100
-int dutyfactor1 = 0;
+int dutyfactor1 = 75;
 int dutyfactor2 = 50;
-int dutyfactor3 = 80;
-int dutyfactor4 = 0;
+int dutyfactor3 = 25;
+int dutyfactor4 = 10;
  
 int main()
 {
@@ -104,13 +104,13 @@ void TIMER_cfg()
        //采用内部时钟给TIM2提供时钟源
        TIM_InternalClockConfig(TIM2);
        //预分频系数为0，即不进行预分频，此时TIMER的频率为72MHz
-       TIM_TimeBaseStructure.TIM_Prescaler = 0;
+       TIM_TimeBaseStructure.TIM_Prescaler = 143;
        //设置时钟分割
        TIM_TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV1;
        //设置计数器模式为向上计数模式
        TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
        //设置计数溢出大小，每计7200个数就产生一个更新事件，即PWM的输出频率为10kHz
-       TIM_TimeBaseStructure.TIM_Period = 3600 - 1;
+       TIM_TimeBaseStructure.TIM_Period = 9999;
        //将配置应用到TIM2中
        TIM_TimeBaseInit(TIM2,&TIM_TimeBaseStructure);
 	     
@@ -136,24 +136,24 @@ void PWM_cfg()
        
        //设置占空比，占空比=(CCRx/ARR)*100%或(TIM_Pulse/TIM_Period)*100%
 	     TimOCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-       TimOCInitStructure.TIM_Pulse = dutyfactor1 * 3600 / 100;
+       TimOCInitStructure.TIM_Pulse = dutyfactor1 * 9999 / 100;
        TIM_OC1Init(TIM2, &TimOCInitStructure);
 	     TIM_OC1PreloadConfig(TIM2,TIM_OCPreload_Enable);
 	
        //TIM2的CH2输出
 	     //使能输出状态
 	     TimOCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-       TimOCInitStructure.TIM_Pulse = dutyfactor2 * 3600 / 100;
+       TimOCInitStructure.TIM_Pulse = dutyfactor2 * 9999 / 100;
        TIM_OC2Init(TIM2, &TimOCInitStructure);
 	     TIM_OC2PreloadConfig(TIM2,TIM_OCPreload_Enable);
 	
 			 TimOCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-	     TimOCInitStructure.TIM_Pulse = dutyfactor3 * 3600 / 100;
+	     TimOCInitStructure.TIM_Pulse = dutyfactor3 * 9999 / 100;
 	     TIM_OC3Init(TIM2, &TimOCInitStructure);
 	     TIM_OC3PreloadConfig(TIM2,TIM_OCPreload_Enable);
 			 
 			 TimOCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-	     TimOCInitStructure.TIM_Pulse = dutyfactor4 * 3600 / 100;
+	     TimOCInitStructure.TIM_Pulse = dutyfactor4 * 9999 / 100;
 	     TIM_OC4Init(TIM2, &TimOCInitStructure);
 	     TIM_OC4PreloadConfig(TIM2,TIM_OCPreload_Enable);
 	

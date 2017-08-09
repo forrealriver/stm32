@@ -1,0 +1,14 @@
+..\output\encoder.o: ..\BSP\src\Encoder.c
+..\output\encoder.o: ..\Lib\cmsis\stm32f10x.h
+..\output\encoder.o: ..\Lib\cmsis\core_cm3.h
+..\output\encoder.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\encoder.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\encoder.o: ..\User\stm32f10x_conf.h
+..\output\encoder.o: ..\User\RTE_Components.h
+..\output\encoder.o: ..\Lib\fwlib\inc\stm32f10x_gpio.h
+..\output\encoder.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h
+..\output\encoder.o: ..\Lib\fwlib\inc\stm32f10x_tim.h
+..\output\encoder.o: ..\Lib\fwlib\inc\misc.h
+..\output\encoder.o: ..\User\stm32f10x_it.h
+..\output\encoder.o: ..\BSP\inc\oled.h
+..\output\encoder.o: ..\BSP\inc\Encoder.h

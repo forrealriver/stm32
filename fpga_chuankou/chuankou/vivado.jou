@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Aug 07 16:19:21 2017
+# Process ID: 1168
+# Current directory: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10272 F:\GitHub\STM32_study\STM32_study\fpga_chuankou\chuankou\chuankou.xpr
+# Log file: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/vivado.log
+# Journal file: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/chuankou.xpr
+update_compile_order -fileset sources_1

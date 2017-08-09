@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sun Aug 06 22:00:44 2017
+# Process ID: 5980
+# Current directory: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/chuankou.runs/synth_1
+# Command line: vivado.exe -log tx_module_demo.vds -mode batch -messageDb vivado.pb -notrace -source tx_module_demo.tcl
+# Log file: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/chuankou.runs/synth_1/tx_module_demo.vds
+# Journal file: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/chuankou.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tx_module_demo.tcl -notrace

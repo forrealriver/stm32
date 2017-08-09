@@ -1,0 +1,13 @@
+..\output\moto.o: ..\BSP\src\moto.c
+..\output\moto.o: ..\BSP\inc\moto.h
+..\output\moto.o: ..\Lib\cmsis\stm32f10x.h
+..\output\moto.o: ..\Lib\cmsis\core_cm3.h
+..\output\moto.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\moto.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\moto.o: ..\User\stm32f10x_conf.h
+..\output\moto.o: ..\User\RTE_Components.h
+..\output\moto.o: ..\Lib\fwlib\inc\stm32f10x_gpio.h
+..\output\moto.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h
+..\output\moto.o: ..\Lib\fwlib\inc\stm32f10x_tim.h
+..\output\moto.o: ..\Lib\fwlib\inc\misc.h
+..\output\moto.o: ..\User\stm32f10x_it.h

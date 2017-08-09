@@ -1,0 +1,9 @@
+..\output\adc.o: ..\BSP\src\adc.c
+..\output\adc.o: ..\BSP\inc\adc.h
+..\output\adc.o: ..\Lib\cmsis\stm32f10x.h
+..\output\adc.o: ..\Lib\cmsis\core_cm3.h
+..\output\adc.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\adc.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\adc.o: ..\User\stm32f10x_conf.h
+..\output\adc.o: ..\User\RTE_Components.h
+..\output\adc.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\math.h

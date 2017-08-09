@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sat Aug 05 22:13:49 2017
+# Process ID: 2616
+# Current directory: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3008 F:\GitHub\STM32_study\STM32_study\fpga_chuankou\chuankou\chuankou.xpr
+# Log file: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/vivado.log
+# Journal file: F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/chuankou.xpr
+update_compile_order -fileset sources_1
+open_hw
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183740666A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183740666A]
+open_hw_target
+set_property PROGRAM.FILE {F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/chuankou.runs/impl_1/tx_module_demo.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {F:/GitHub/STM32_study/STM32_study/fpga_chuankou/chuankou/chuankou.runs/impl_1/tx_module_demo.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw

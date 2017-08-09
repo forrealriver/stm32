@@ -1,0 +1,9 @@
+..\output\stm32f10x_bkp.o: ..\Lib\fwlib\src\stm32f10x_bkp.c
+..\output\stm32f10x_bkp.o: ..\Lib\fwlib\inc\stm32f10x_bkp.h
+..\output\stm32f10x_bkp.o: ..\Lib\cmsis\stm32f10x.h
+..\output\stm32f10x_bkp.o: ..\Lib\cmsis\core_cm3.h
+..\output\stm32f10x_bkp.o: E:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\stm32f10x_bkp.o: ..\Lib\cmsis\system_stm32f10x.h
+..\output\stm32f10x_bkp.o: ..\User\stm32f10x_conf.h
+..\output\stm32f10x_bkp.o: ..\User\RTE_Components.h
+..\output\stm32f10x_bkp.o: ..\Lib\fwlib\inc\stm32f10x_rcc.h

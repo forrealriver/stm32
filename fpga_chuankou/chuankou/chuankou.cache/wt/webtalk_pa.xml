@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Aug 07 16:33:48 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d042668121da4ce298a51f701ca6e435" type="ProjectID"/>
+<property name="ProjectIteration" value="19" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="7" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="5" type="JavaHandler"/>
+<property name="LaunchOpenTarget" value="13" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="18" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="16" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="11" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="13" type="JavaHandler"/>
+<property name="RunImplementation" value="6" type="JavaHandler"/>
+<property name="RunSynthesis" value="7" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
+<property name="SetTopNode" value="2" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="ToolsOptions" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, defence.xdc], 4, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, defence.xdc], 4, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, tx_module_demo (tx_module_demo.v" value="14" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_COPY, Copy" value="1" type="GuiResourceData"/>
+<property name="control_module.v, 253, 490" value="1" type="GuiResourceData"/>
+<property name="control_module.v, 63, 448" value="1" type="GuiResourceData"/>
+<property name="control_module.v, 8, 253" value="1" type="GuiResourceData"/>
+<property name="tx_bps_module.v, 218, 461" value="1" type="GuiResourceData"/>
+<property name="tx_bps_module.v, 30, 413" value="1" type="GuiResourceData"/>
+<property name="tx_bps_module.v, 356, 459" value="1" type="GuiResourceData"/>
+<property name="tx_bps_module.v, 67, 432" value="1" type="GuiResourceData"/>
+<property name="tx_control_module.v, 108, 30, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="tx_control_module.v, 20, 20" value="1" type="GuiResourceData"/>
+<property name="tx_control_module.v, 288, 174" value="1" type="GuiResourceData"/>
+<property name="tx_control_module.v, 65, 30" value="1" type="GuiResourceData"/>
+<property name="tx_control_module.v, 8, 16" value="1" type="GuiResourceData"/>
+<property name="tx_module.v, 10, 299" value="1" type="GuiResourceData"/>
+<property name="tx_module.v, 63, 310" value="1" type="GuiResourceData"/>
+<property name="tx_module.v, 89, 295" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 0, 207" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 104, 205" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 104, 205, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 117, 171" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 133, 347" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 142, 305" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 142, 305, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 162, 322" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 185, 288" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 188, 294" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 194, 270" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 198, 286" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 20, 193" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 206, 321" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 213, 264" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 215, 307" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 219, 303" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 227, 386" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 240, 393" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 243, 366" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 246, 373" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 253, 286" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 310, 342" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 317, 339" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 349, 326" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 387, 332" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 46, 227" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 58, 212" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 61, 210" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 85, 205" value="1" type="GuiResourceData"/>
+<property name="tx_module_demo.v, 9, 197" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="34" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="24" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
